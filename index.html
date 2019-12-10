@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/main.js"></script>
+	<title>Newsletter</title>
+</head>
+
+<body>
+    <div class="container">
+                <div>
+                    <span class="banner-text-form">Spread the word!</span>
+                    <span class="side-text">Our recipes are awesome, sign up to our newsletter and
+                        invite friends to join the Grilled Prawn Cult</span>
+                </div>
+                <div id="newsletter-form">
+                    <div class="input-elements">
+                        <div class="single-element">
+                            <label class="salutation">Name</label>
+                            <input class="size-input-element" type="text" />
+                        </div>
+                
+                        <div class="single-element">
+                            <label class="salutation">Surname</label>
+                            <input class="size-input-element" type="text" />
+                        </div>
+                
+                        <div class="single-element">
+                            <label class="salutation">Email</label>
+                            <input class="size-input-element" type="email" />
+                        </div>
+                
+                        <div id="actions" class="single-element">
+                            <button class="add-friend-button" type="button" onclick="submit(this)">Add Friend</button>
+                            <button class="remove-icon-button hide" onclick="remove(this)" type="button"><i class="fas fa-trash"></i>Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="submit-button">
+                    <button class="submit-details" type="button" onclick="sendEmail()">Send<i class="fas fa-arrow-right"></i></button>
+                </div>
+            
+            
+            </div>
+</body>
+</html>

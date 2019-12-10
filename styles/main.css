@@ -1,0 +1,138 @@
+@font-face{
+    font-family: Roboto_Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face{
+    font-family: Roboto_Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: Roboto_Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.container{
+    background-color: #E9474B;
+    padding:30px;
+}
+.banner-text-form{
+    color: white;
+    padding-top:4%;
+    padding-left: 4%;
+    padding-bottom:0.5%;
+    font-family: "Roboto_Medium";
+    font-size: 40px;
+    display:block;
+}
+
+.side-text {
+    display: block;
+    color: white;
+    font-family: "Roboto_Regular";
+    font-size: 18px;
+    padding-top: 0.5%;
+    padding-left:4%;
+    width:40%;
+    letter-spacing: 1px
+}
+
+.input-elements{
+    padding-left: 4%;
+    padding-top:2%;
+    display: flex;
+    flex-direction: row;
+}
+.single-element{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+}
+.single-element:last-child {
+    text-align: center;
+    display: inline-table;
+}
+.size-input-element{
+    border:none;
+    margin-left:1%;
+    margin-right:6%;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #f6f6f6;
+}
+.salutation{
+    padding-bottom:5px;
+    margin:1%;
+    color: white;
+    font-family: "Roboto_Regular";
+    font-size:18px;
+}
+.submit-details{
+    color:black;
+    width: 183px;
+    height: 50px;
+    border-radius: 4px;
+    border:none;
+    background-color: #ffffff;
+    font-family: "Roboto_Regular";
+    font-size:18px;
+    margin:0 auto;
+    display: block;
+}
+.submit-button{
+    margin:40px;
+}
+.add-friend-button{
+    width: 70%;
+    height: 50px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-top: 32px;
+}
+i {
+    padding:10px;
+}
+.remove-icon-button{
+    width: 70%;
+    height: 50px;
+    border:none;
+    background-color: transparent;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-top: 32px;
+}
+
+.hide {
+    display:none;
+}
+
+@media only screen and (max-width: 768px) {
+    .input-elements {
+        flex-direction: column;
+    }
+    .single-element {
+        width: 80%;
+        margin: 15px 0;
+    }
+    .single-element input {
+        margin: 0;
+    }
+    .add-friend-button {
+        width: 100%;
+    }
+    .submit-button {
+        margin: 40px 0;
+        width: 80%;
+    }
+    .footer .footer-section:last-child {
+        width: 100%; 
+        padding: 20px;
+    }
+}
